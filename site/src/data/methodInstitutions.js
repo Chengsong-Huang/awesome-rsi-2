@@ -1,4 +1,5 @@
 export const methodInstitutions = {
+  "2605.09959": ["Washington University in St. Louis", "University of Virginia", "University of Maryland", "University of North Carolina at Chapel Hill"],
   "2508.05004": ["Tencent AI Seattle Lab", "Washington University in St. Louis", "University of Maryland, College Park", "The University of Texas at Dallas"],
   "dream-rsi": ["Google", "University of Maryland, College Park", "Google DeepMind", "University of Virginia"],
   "2609.08944": ["Renmin University of China", "Tencent"],
@@ -22,7 +23,6 @@ export const methodInstitutions = {
   "2607.15524": ["Sakana AI", "University of California, Berkeley"],
   "2603.21877": ["Institute of Software, Chinese Academy of Sciences", "University of Chinese Academy of Sciences", "Institute of Information Engineering, Chinese Academy of Sciences", "National Computer Network Emergency Response Technical Team/Coordination Center of China"],
   "2410.04444": ["Peking University", "University of California, Santa Barbara", "University of Arizona"],
-  "2605.09959": ["Washington University in St. Louis", "University of Virginia", "University of Maryland", "University of North Carolina at Chapel Hill"],
   "2506.10943": ["Massachusetts Institute of Technology"],
   "2505.22954": ["University of British Columbia", "Vector Institute", "Sakana AI", "Canada CIFAR AI Chair"],
   "2409.07429": ["Carnegie Mellon University", "Massachusetts Institute of Technology"],

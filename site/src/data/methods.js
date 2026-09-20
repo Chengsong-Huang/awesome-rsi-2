@@ -1,5 +1,14 @@
 export const methods = [
   {
+    id: "2605.09959",
+    nickname: "G-Zero",
+    title: "G-Zero: Self-Play for Open-Ended Generation from Zero Data",
+    authors: ["Chengsong Huang", "Haolin Liu", "Tong Zheng"], authorCount: 10,
+    published: "2026-05-11", year: 2026, venue: "arXiv preprint", status: "preprint",
+    summary: "Co-evolves a Proposer and a Generator for open-ended generation: the Proposer is trained with GRPO to find queries and hints on which the Generator's hint-conditioned response shifts most, and the Generator is trained with DPO to internalize the hints, with no external judge.",
+    summaryZh: "面向开放式生成的 Proposer 与 Generator 协同演化：Proposer 通过 GRPO 学习寻找能让 Generator 在提示条件下回答变化最大的问题和提示，Generator 通过 DPO 内化这些提示带来的改进，全程不依赖外部评判模型。",
+  },
+  {
     id: "2508.05004",
     nickname: "R-Zero",
     title: "R-Zero: Self-Evolving Reasoning LLM from Zero Data",
@@ -302,15 +311,6 @@ export const methods = [
     published: "2024-10-06", year: 2024, venue: "ACL 2025", status: "accepted",
     summary: "Lets an agent inspect and rewrite its own executable logic, including the logic used for later self-modification, and empirically selects better descendants.",
     summaryZh: "让智能体读取并重写自己的可执行逻辑，其中也包括后续用于自我修改的逻辑，再通过实证评测选择更好的后代版本。",
-  },
-  {
-    id: "2605.09959",
-    nickname: "G-Zero",
-    title: "G-Zero: Self-Play for Open-Ended Generation from Zero Data",
-    authors: ["Chengsong Huang", "Haolin Liu", "Tong Zheng"], authorCount: 10,
-    published: "2026-05-11", year: 2026, venue: "arXiv preprint", status: "preprint",
-    summary: "Co-evolves a Proposer and a Generator for open-ended generation: the Proposer is trained with GRPO to find queries and hints on which the Generator's hint-conditioned response shifts most, and the Generator is trained with DPO to internalize the hints, with no external judge.",
-    summaryZh: "面向开放式生成的 Proposer 与 Generator 协同演化：Proposer 通过 GRPO 学习寻找能让 Generator 在提示条件下回答变化最大的问题和提示，Generator 通过 DPO 内化这些提示带来的改进，全程不依赖外部评判模型。",
   },
   {
     id: "2506.10943",
