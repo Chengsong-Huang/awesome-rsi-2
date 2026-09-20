@@ -1,4 +1,5 @@
 export const methodInstitutions = {
+  "2608.19880": ["Washington University in St. Louis", "Google Cloud AI Research", "Google Cloud", "University of North Carolina at Chapel Hill"],
   "2601.22628": ["Xiamen University", "Washington University in St. Louis", "Renmin University of China"],
   "2511.15661": ["University of Illinois Urbana-Champaign", "Washington University in St. Louis", "University of Maryland", "National University of Singapore"],
   "2603.09206": ["University of Maryland", "Brown University", "Washington University in St. Louis", "Adobe", "University of Illinois Urbana-Champaign", "University of Southern California", "NVIDIA"],
@@ -32,7 +33,6 @@ export const methodInstitutions = {
   "2502.12110": ["Rutgers University", "Independent Researcher", "AIOS Foundation"],
   "2403.03186": ["Skywork AI", "Beijing Academy of Artificial Intelligence", "Nanyang Technological University", "Peking University", "Institute of Software, Chinese Academy of Sciences", "University of Hong Kong", "The Chinese University of Hong Kong, Shenzhen"],
   "2509.25140": ["University of Illinois Urbana-Champaign", "Google Cloud AI Research", "Yale University"],
-  "2608.19880": ["Google Cloud AI Research", "University of North Carolina at Chapel Hill", "Washington University in St. Louis"],
   "2604.10923": ["Beihang University", "Beijing Institute of Technology", "Independent Researcher", "Munich Center for Machine Learning", "University of Edinburgh"],
   "2606.17220": ["Center of Information Research, Academy of Military Sciences", "Discipline and Technology Research Center for Large Model Intelligence Applications", "Hebei University of Engineering"],
   "2604.16839": ["Hong Kong University of Science and Technology (Guangzhou)", "Jilin University", "The Chinese University of Hong Kong"],

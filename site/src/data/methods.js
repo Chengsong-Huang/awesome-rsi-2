@@ -1,5 +1,14 @@
 export const methods = [
   {
+    id: "2608.19880",
+    nickname: "EnvHarness",
+    title: "EnvHarness: Awakening Static Worlds for Agent Learning",
+    authors: ["Chengsong Huang", "Zifeng Wang", "Rujun Han"], authorCount: 17,
+    published: "2026-08-20", year: 2026, venue: "arXiv preprint", status: "preprint",
+    summary: "Uses policy trajectories to design and validate environment plug-ins, distills new experience into a reusable skill bank, and targets the skill-equipped policy in subsequent rounds; separate experiments also train model weights on the reshaped environments.",
+    summaryZh: "根据策略轨迹设计并验证环境插件，将新经验提炼为可复用的 Skill 记忆，再针对已积累 Skill 的策略继续改造环境；另有实验在改造后的环境中训练模型参数。",
+  },
+  {
     id: "2601.22628",
     nickname: "TTCS",
     title: "TTCS: Test-Time Curriculum Synthesis for Self-Evolving",
@@ -392,15 +401,6 @@ export const methods = [
     published: "2025-09-29", year: 2025, venue: "ICLR 2026", status: "accepted",
     summary: "Distills generalizable reasoning strategies from self-judged successes and failures, retrieves them for later tasks, and uses additional test-time rollouts to improve the memory bank.",
     summaryZh: "从自行判断的成功和失败轨迹中提炼可泛化的推理策略，供后续任务检索，并通过增加测试时 rollout 持续丰富和改进记忆库。",
-  },
-  {
-    id: "2608.19880",
-    nickname: "EnvHarness",
-    title: "EnvHarness: Awakening Static Worlds for Agent Learning",
-    authors: ["Chengsong Huang", "Zifeng Wang", "Rujun Han"], authorCount: 17,
-    published: "2026-08-20", year: 2026, venue: "ICML 2026", status: "accepted",
-    summary: "Wraps a static environment in programmable plug-in components that reshape its behavior while keeping its verifier; EnvRigger observes the target policy's trajectories, synthesizes components that target diagnosed flaws, validates them on fresh rollouts, and the policy is then trained on the reshaped environment.",
-    summaryZh: "用可编程的插件组件包裹静态环境，在保留原验证器的前提下改变其行为；EnvRigger 观察目标策略的轨迹、针对诊断出的缺陷合成组件并用新的 rollout 验证，策略随后在改造后的环境上继续训练。",
   },
   {
     id: "2604.10923",
