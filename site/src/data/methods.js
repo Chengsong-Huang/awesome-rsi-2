@@ -1,5 +1,14 @@
 export const methods = [
   {
+    id: "2603.09206",
+    nickname: "MM-Zero",
+    title: "MM-Zero: Self-Evolving Multi-Model Vision Language Models From Zero Data",
+    authors: ["Zongxia Li", "Hongyang Du", "Chengsong Huang"], authorCount: 11,
+    published: "2026-03-10", year: 2026, venue: "EMNLP 2026", status: "accepted",
+    summary: "Trains Proposer, Coder, and Solver roles from one base VLM with GRPO: the Proposer poses visual concepts and questions, the Coder renders them into images as executable code, and the Solver reasons over them, so multimodal training data is generated from zero seed images.",
+    summaryZh: "从同一基座 VLM 训练 Proposer、Coder、Solver 三个角色：Proposer 生成视觉概念和问题，Coder 将其转为可执行代码渲染成图像，Solver 在生成的图像上推理，从零种子图像出发自行生产多模态训练数据。",
+  },
+  {
     id: "2605.09959",
     nickname: "G-Zero",
     title: "G-Zero: Self-Play for Open-Ended Generation from Zero Data",
@@ -329,15 +338,6 @@ export const methods = [
     published: "2025-05-29", year: 2025, venue: "ICLR 2026", status: "accepted",
     summary: "Maintains an archive of coding-agent versions, samples parents, rewrites their harness code, and keeps empirically useful descendants as stepping stones for later evolution.",
     summaryZh: "维护多个编程智能体版本，从档案中选择父代并重写其 Harness 代码，再把经实证验证的后代作为后续演化的踏脚石。",
-  },
-  {
-    id: "2603.09206",
-    nickname: "MM-Zero",
-    title: "MM-Zero: Self-Evolving Multi-Model Vision Language Models From Zero Data",
-    authors: ["Zongxia Li", "Hongyang Du", "Chengsong Huang"], authorCount: 11,
-    published: "2026-03-10", year: 2026, venue: "EMNLP 2026", status: "accepted",
-    summary: "Trains Proposer, Coder, and Solver roles from one base VLM with GRPO: the Proposer poses visual concepts and questions, the Coder renders them into images as executable code, and the Solver reasons over them, so multimodal training data is generated from zero seed images.",
-    summaryZh: "从同一基座 VLM 训练 Proposer、Coder、Solver 三个角色：Proposer 生成视觉概念和问题，Coder 将其转为可执行代码渲染成图像，Solver 在生成的图像上推理，从零种子图像出发自行生产多模态训练数据。",
   },
   {
     id: "2409.07429",
