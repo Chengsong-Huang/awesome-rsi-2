@@ -1,5 +1,14 @@
 export const methods = [
   {
+    id: "2608.19880",
+    nickname: "EnvHarness",
+    title: "EnvHarness: Awakening Static Worlds for Agent Learning",
+    authors: ["Chengsong Huang", "Zifeng Wang", "Rujun Han"], authorCount: 17,
+    published: "2026-08-20", year: 2026, venue: "arXiv preprint", status: "preprint",
+    summary: "Uses policy trajectories to design and validate environment plug-ins, distills new experience into a reusable skill bank, and targets the skill-equipped policy in subsequent rounds; separate experiments also train model weights on the reshaped environments.",
+    summaryZh: "根据策略轨迹设计并验证环境插件，将新经验提炼为可复用的 Skill 记忆，再针对已积累 Skill 的策略继续改造环境；另有实验在改造后的环境中训练模型参数。",
+  },
+  {
     id: "2601.22628",
     nickname: "TTCS",
     title: "TTCS: Test-Time Curriculum Synthesis for Self-Evolving",

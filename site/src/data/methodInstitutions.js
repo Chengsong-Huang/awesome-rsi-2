@@ -1,4 +1,5 @@
 export const methodInstitutions = {
+  "2608.19880": ["Washington University in St. Louis", "Google Cloud AI Research", "Google Cloud", "University of North Carolina at Chapel Hill"],
   "2601.22628": ["Xiamen University", "Washington University in St. Louis", "Renmin University of China"],
   "2511.15661": ["University of Illinois Urbana-Champaign", "Washington University in St. Louis", "University of Maryland", "National University of Singapore"],
   "2603.09206": ["University of Maryland", "Brown University", "Washington University in St. Louis", "Adobe", "University of Illinois Urbana-Champaign", "University of Southern California", "NVIDIA"],

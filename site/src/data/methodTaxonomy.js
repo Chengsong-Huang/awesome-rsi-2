@@ -114,6 +114,7 @@ export const methodFilterDimensions = [
 ];
 
 export const methodTaxonomy = {
+  "2608.19880": { artifact: ["Parametric","Non-parametric","Context","Memory","Skill","Other artifact"], mode: ["Offline"], topology: ["Sequential"], selection: ["No validation"], updater: ["Teacher"], source: ["Train/dev set","Environment","Executable verifier","LLM feedback"], feedback: ["Score","Binary","Non-binary","Non-score","Other"], frequency: ["Batch"], scope: ["Specialized"] },
   "2601.22628": { artifact: ["Parametric"], mode: ["Online"], topology: ["Sequential"], selection: ["No validation"], updater: ["Joint"], source: ["LLM feedback"], feedback: ["Score","Binary"], frequency: ["Batch"], scope: ["Specialized"] },
   "2511.15661": { artifact: ["Parametric"], mode: ["Offline"], topology: ["Sequential"], selection: ["No validation"], updater: ["Joint"], source: ["LLM feedback"], feedback: ["Score","Binary"], frequency: ["Batch"], scope: ["General"] },
   "2603.09206": { artifact: ["Parametric"], mode: ["Offline"], topology: ["Sequential"], selection: ["No validation"], updater: ["Joint"], source: ["Executable verifier", "LLM feedback"], feedback: ["Score", "Binary", "Non-binary"], frequency: ["Batch"], scope: ["General"] },
