@@ -114,6 +114,7 @@ export const methodFilterDimensions = [
 ];
 
 export const methodTaxonomy = {
+  "2605.09959": { artifact: ["Parametric"], mode: ["Offline"], topology: ["Sequential"], selection: ["No validation"], updater: ["Joint"], source: ["LLM feedback"], feedback: ["Score", "Non-binary"], frequency: ["Batch"], scope: ["General"] },
   "2508.05004": { artifact: ["Parametric"], mode: ["Offline"], topology: ["Sequential"], selection: ["No validation"], updater: ["Joint"], source: ["LLM feedback"], feedback: ["Score", "Binary"], frequency: ["Batch"], scope: ["General"] },
   "dream-rsi": { artifact: ["Non-parametric", "Harness code", "Context", "Memory"], mode: ["Online"], topology: ["Sequential"], selection: ["Combined metrics"], updater: ["Teacher"], source: ["Benchmark", "Environment", "Executable verifier"], feedback: ["Score", "Binary", "Non-binary", "Non-score", "Other"], frequency: ["Batch"], scope: ["Specialized"] },
   "2609.08944": { artifact: ["Non-parametric", "Context", "Memory", "Skill"], mode: ["Offline"], topology: ["Sequential"], selection: ["Combined metrics"], updater: ["Teacher"], source: ["Train/dev set", "Environment", "Executable verifier", "LLM feedback"], feedback: ["Score", "Binary", "Non-binary", "Non-score", "LLM-as-a-judge", "Other"], frequency: ["Batch"], scope: ["Specialized"] },
