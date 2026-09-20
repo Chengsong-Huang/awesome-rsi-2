@@ -1,5 +1,14 @@
 export const methods = [
   {
+    id: "2508.05004",
+    nickname: "R-Zero",
+    title: "R-Zero: Self-Evolving Reasoning LLM from Zero Data",
+    authors: ["Chengsong Huang", "Wenhao Yu", "Xiaoyang Wang"], authorCount: 9,
+    published: "2025-08-07", year: 2025, venue: "ICLR 2026", status: "accepted",
+    summary: "Initializes a Challenger and a Solver from one base model; the Challenger is rewarded for questions at the edge of the Solver's ability and the Solver trains on majority-vote pseudo-labels, so the curriculum tracks the Solver across rounds without any external data.",
+    summaryZh: "从同一基座模型初始化 Challenger 与 Solver：Challenger 因提出处于 Solver 能力边界的问题而获得奖励，Solver 用多数投票伪标签训练，课程随轮次跟随 Solver 的能力变化，全程不依赖外部数据。",
+  },
+  {
     id: "dream-rsi",
     nickname: "Dream-RSI",
     title: "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
