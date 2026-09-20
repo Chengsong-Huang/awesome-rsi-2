@@ -1,5 +1,14 @@
 export const methods = [
   {
+    id: "2511.15661",
+    nickname: "VisPlay",
+    title: "VisPlay: Self-Evolving Vision-Language Models from Images",
+    authors: ["Yicheng He", "Chengsong Huang", "Zongxia Li"], authorCount: 5,
+    published: "2025-11-19", year: 2025, venue: "CVPR 2026", status: "accepted",
+    summary: "Assigns one base VLM the roles of an image-conditioned Questioner and a multimodal Reasoner, jointly trained with GRPO using diversity and difficulty rewards, so the model improves visual reasoning from unlabeled images alone.",
+    summaryZh: "让同一基座 VLM 分别扮演基于图像提问的 Questioner 和多模态 Reasoner，用带多样性与难度奖励的 GRPO 联合训练，仅凭无标注图像持续提升视觉推理能力。",
+  },
+  {
     id: "2603.09206",
     nickname: "MM-Zero",
     title: "MM-Zero: Self-Evolving Multi-Model Vision Language Models From Zero Data",
@@ -347,15 +356,6 @@ export const methods = [
     published: "2024-09-11", year: 2024, venue: "ICML 2025", status: "accepted",
     summary: "Induces reusable workflows from demonstrations or the agent's own completed web trajectories and retrieves them to guide later tasks.",
     summaryZh: "从示范轨迹或智能体已经完成的网页任务中提炼可复用工作流，并在后续任务中检索这些流程来指导行动。",
-  },
-  {
-    id: "2511.15661",
-    nickname: "VisPlay",
-    title: "VisPlay: Self-Evolving Vision-Language Models from Images",
-    authors: ["Yicheng He", "Chengsong Huang", "Zongxia Li"], authorCount: 5,
-    published: "2025-11-19", year: 2025, venue: "CVPR 2026", status: "accepted",
-    summary: "Assigns one base VLM the roles of an image-conditioned Questioner and a multimodal Reasoner, jointly trained with GRPO using diversity and difficulty rewards, so the model improves visual reasoning from unlabeled images alone.",
-    summaryZh: "让同一基座 VLM 分别扮演基于图像提问的 Questioner 和多模态 Reasoner，用带多样性与难度奖励的 GRPO 联合训练，仅凭无标注图像持续提升视觉推理能力。",
   },
   {
     id: "2502.12110",
