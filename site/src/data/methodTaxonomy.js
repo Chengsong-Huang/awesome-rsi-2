@@ -114,6 +114,7 @@ export const methodFilterDimensions = [
 ];
 
 export const methodTaxonomy = {
+  "2511.15661": { artifact: ["Parametric"], mode: ["Offline"], topology: ["Sequential"], selection: ["No validation"], updater: ["Joint"], source: ["LLM feedback"], feedback: ["Score","Binary"], frequency: ["Batch"], scope: ["General"] },
   "2603.09206": { artifact: ["Parametric"], mode: ["Offline"], topology: ["Sequential"], selection: ["No validation"], updater: ["Joint"], source: ["Executable verifier", "LLM feedback"], feedback: ["Score", "Binary", "Non-binary"], frequency: ["Batch"], scope: ["General"] },
   "2605.09959": { artifact: ["Parametric"], mode: ["Offline"], topology: ["Sequential"], selection: ["No validation"], updater: ["Joint"], source: ["LLM feedback"], feedback: ["Score", "Non-binary"], frequency: ["Batch"], scope: ["General"] },
   "2508.05004": { artifact: ["Parametric"], mode: ["Offline"], topology: ["Sequential"], selection: ["No validation"], updater: ["Joint"], source: ["LLM feedback"], feedback: ["Score", "Binary"], frequency: ["Batch"], scope: ["General"] },
