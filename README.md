@@ -18,7 +18,7 @@ Awesome RSI collects **benchmarks, methods, and systems for Recursive Self-Impro
 
 <!-- BEGIN GENERATED COUNTS -->
 
-**52 method papers · 30 benchmark papers · 3 systems**
+**53 method papers · 30 benchmark papers · 3 systems**
 
 <!-- END GENERATED COUNTS -->
 
@@ -64,6 +64,7 @@ The student's model parameters are updated to improve task performance. This inc
 | [Continual Harness: Online Adaptation for Self-Improving Foundation Agents](https://arxiv.org/abs/2605.09998) | arXiv preprint |
 | [G-Zero: Self-Play for Open-Ended Generation from Zero Data](https://arxiv.org/abs/2605.09959) | arXiv preprint |
 | [P²O: Joint Policy and Prompt Optimization](https://arxiv.org/abs/2603.21877) | arXiv preprint |
+| [MM-Zero: Self-Evolving Multi-Model Vision Language Models From Zero Data](https://arxiv.org/abs/2603.09206) | EMNLP 2026 |
 | [R-Zero: Self-Evolving Reasoning LLM from Zero Data](https://arxiv.org/abs/2508.05004) | ICLR 2026 |
 | [Self-Adapting Language Models](https://arxiv.org/abs/2506.10943) | NeurIPS 2025 |
 
